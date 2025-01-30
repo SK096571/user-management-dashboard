@@ -1,0 +1,118 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title Styles */
+h1 {
+    color: #4A90E2;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Headers */
+th {
+    background-color: #4A90E2;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Table Rows */
+td {
+    background-color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td button {
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+td button:hover {
+    background-color: #357ABD;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input {
+    width: 100%;
+}
+
+form button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-color: #357ABD;
+}
+
+/* Hover effect for form inputs */
+form input:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    form {
+        width: 90%;
+    }
+}
